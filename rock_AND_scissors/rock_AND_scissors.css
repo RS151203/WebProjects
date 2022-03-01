@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    background-image: url("istockphoto-1206796363-2048x2048.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#intro_name, #intro_rounds {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+hr {
+    border-color: blueviolet;
+    border-width: 2px;
+
+}
+
+#welcome_player, #number_of_rounds, #rounds_played {
+    background-color: fuchsia;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-width: 4px;
+    display: none;
+}
+
+#submit_player_name, #submit_total_number_of_rounds {
+    height: 20px;
+    width: 65px;
+    color: blue;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    color: darkviolet;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.player {
+    display: inline;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.ai {
+    display: inline;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#player_block {
+    display: none;
+    /*display inline-block*/
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 7px;
+    font-family: cursive;
+    width: 35%;
+}
+
+#ai_block {
+    display: none;
+    /*display inline-block*/
+    background-color: black;
+    border-radius: 7px;
+    font-family: cursive;
+    width: 35%;
+    color: white;
+}
+
+.hand_img {
+    height: 150px;
+    width: 100%;
+}
+
+.icon_img {
+    height: 75px;
+    width: 50px;
+    margin: 10px;
+}
+
+article {
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#ai_points {
+    border: none;
+    width: inherit;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+#player_points {
+    border: none;
+    width: inherit;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+    background-color: white;
+}
+
+#rock_points, #paper_points, #scissor_points {
+    display: none
+}
+
+#rock_robot, #paper_robot, #scissor_robot, #rock, #paper, #scissor {
+    border-radius: 100%;
+}
+
+#round_winner {
+    background-color: orangered;
+    color: yellow;
+    font-size: x-large;
+}
