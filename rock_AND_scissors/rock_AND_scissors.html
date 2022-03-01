@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>ROCK AND SCISSORS.</title>
+    <link href="rock_AND_scissors.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <h2 id="intro_name">IT'S TIME TO SHOW WHAT YOU HAVE GOT....<br>
+        <-!!! LEADER FIRST LET'S REGISTER THE NAME YOU WILL BE USING TO BATTLE AGAINST A . I -!!!>
+    </h2>
+    <input id="player_name" type="text" />
+    <input id="submit_player_name" type="Submit" onclick="welcome()">
+    <br>
+    <hr>
+    <h1 id="welcome_player"></h1>
+    <h2 id="intro_rounds">ENTER NUMBER OF ROUNDS YOU WOULD LIKE TO COMPETE WITH A . I :-</h2>
+    <input id="total_number_of_rounds" type="number" />
+    <input id="submit_total_number_of_rounds" type="Submit">
+    <br>
+    <h1 id="number_of_rounds"></h1>
+    <hr>
+    <h1 id="rounds_played">TOTAL NUMBER OF ROUNDS PLAYED:<span id="round_played_count">0</span></h1>
+    <div id="ai_block">
+        <p class="ai">AI</p>
+        <br>
+        A.I POINTS:<input id="ai_points" type="number" value="0" disabled></input>
+        <!--seperate number then covert to integer in js script -->
+        <br>
+        <br>
+        <br>
+        <img id="robot_hand_img" src="robot_rock.jpg" class="hand_img" />
+        <br>
+        <br>
+        <br>
+        <article>
+            <img id="rock_robot" src="robot_rock _icon.jpg" class="icon_img" />
+            <label for="rock_robot">ROCK</label>
+        </article>
+        <article>
+            <img id="paper_robot" src="robot_scissor _icon.jpg" class="icon_img" />
+            <label for="paper_robot">PAPER</label>
+        </article>
+        <article>
+            <img id="scissor_robot" src="robot_paper_icon.jpg" class="icon_img" />
+            <label for="scissor_robot">SCISSOR</label>
+    </div>
+    <div id="player_block">
+        <p id="player_title" class="player">PLAYER</p>
+        <br>
+        <br>
+        PLAYER POINTS:<input id="player_points" type="number" value="0" disabled></input>
+        <br>
+        <br>
+        <br>
+        <img id="human_hand_img" src="rock_img.jpg" class="hand_img" />
+        <br>
+        <br>
+        <br>
+        <article>
+            <img id="rock" src="rock_img_icon.jpg" class="icon_img" />
+            <label for="rock">ROCK <input id="rock_points" type="number" value="0" disabled></label>
+        </article>
+        <article>
+            <img id="paper" src="paper_img_icon.jpg" class="icon_img" />
+            <label for="paper">PAPER <input id="paper_points" type="number" value="0" disabled></label>
+        </article>
+        <article>
+            <img id="scissor" src="scissor_img _icon.jpg" class="icon_img" />
+            <label for="scissor">SCISSOR <input id="scissor_points" type="number" value="0" disabled></label>
+        </article>
+    </div>
+    <p id="round_winner"></p>
+    <br>
+    <br>
+    <br>
+    <button id="start_game">BATTLE!!!</button>
+</body>
+<script src="rock_AND_scissors.js"></script>
+
+</html>
