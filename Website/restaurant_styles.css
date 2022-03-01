@@ -1,0 +1,157 @@
+body {
+    background-image: url("anne-nygard-zHNfn36XL9w-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation_bar {
+
+    text-align: left;
+    width: 100%;
+    background-color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    white-space: inherit;
+    font-size: 3vw;
+    color: ghostwhite;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+.menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: fuchsia;
+}
+
+.intro_img {
+    width: 100%;
+    background-image: url("barbequed-cottage-cheese-vegetable-biryani-north-indian-tandoori-paneer-84392461.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.tagline {
+
+    text-align: center;
+    padding: 10vmin;
+    font-size: 15vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    white-space: inherit;
+    color: yellow;
+    overflow: hidden;
+
+}
+
+.reviews {
+    text-align: center;
+    font-size: 6vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: magenta;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.reviews_img {
+    float: left;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 750px) {
+    .reviews_img {
+        width: 50%;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .reviews_img {
+        width: 100%;
+    }
+}
+
+.divider_1 {
+    border: 3px rgba(255, 0, 0, 0.651);
+    width: 23vw;
+}
+
+.review_us {
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: magenta;
+}
+
+.websites {
+    text-align: center;
+    text-decoration: none;
+}
+
+.websites:hover {
+    text-align: center;
+    color: aqua;
+}
+
+.locate_us {
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: crimson;
+    font-weight: bold;
+    font-size: 6vw;
+}
+
+.map {
+    height: 75vh;
+    width: 100%;
+    border: 0;
+}
+
+.contact_us {
+    background-color: peru;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4vw;
+    border-radius: 25px;
+}
+
+.thanks {
+    border-radius: 10px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 5vw;
+}

@@ -1,0 +1,27 @@
+body, footer {
+    background-image: url("nathalie-jolie-IBekPHDDFxQ-unsplash.jpg");
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.description {
+    background-color: white;
+}
+
+.dishes {
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    font-family: fantasy, Geneva, Tahoma, sans-serif;
+    color: white;
+}
