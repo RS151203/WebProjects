@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Web Calculator.</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 5vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #calculate {
+            width: auto;
+            height: 30px;
+        }
+
+        #number1,
+        #number2 {
+            font-size: 4vw;
+        }
+
+        #results {
+            font-size: 6vw;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        Web Calculator for performing simple arithmetic operations.
+    </h2>
+    <input type="number" id="number1" />
+    <br>
+    <label for="number1">Enter First Number.</label>
+    <br>
+    <br>
+    <div id="operation">
+        <input id="addition" name="operators" type="radio">Addition
+        <input id="subtraction" name="operators" type="radio">Subtraction
+        <input id="multiplication" name="operators" type="radio">Multiplication
+        <input id="division" name="operators" type="radio">Division
+        <input id="exponention" name="operators" type="radio">Exponention
+    </div>
+    <br>
+    <input type="number" id="number2" />
+    <br>
+    <label for="number2">Enter Second Number.</label>
+    <br>
+    <br>
+    <input type="button" id="calculate" value="Calculate" onclick="cal()" />
+    <br>
+    <hr>
+    <h3>Calculation Results.</h3>
+    <hr>
+    <p id="results"></p>
+
+</body>
+<script src="web_calculator.js"></script>
+
+</html>
