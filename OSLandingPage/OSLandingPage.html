@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="icon" href="LegionIcon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <style>
+        #menu {
+            background-color: white;
+        }
+
+        .navTabs {
+            color: black;
+            font-weight: bolder;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #OSIntro {
+            background-color: antiquewhite;
+            text-align: center;
+        }
+
+        .OSLoading {
+            width: 40vmax;
+            text-align: center;
+        }
+
+        .inlineHeader {
+            display: inline-block;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 6vmax;
+            margin-left: 3vmax;
+            color: white;
+            text-shadow: 2px 2px black;
+            height: 25vmax;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .header {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 3vmax;
+            color: white;
+            text-shadow: 2px 2px black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .headerForFeatures {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            text-shadow: 2px 2px black;
+            padding: 5px;
+            text-align: center;
+            font-size: 3vmax;
+        }
+
+        .paraForFeatures {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            text-shadow: 2px 2px black;
+            padding: 5px;
+            text-align: center;
+            font-size: 4vmin;
+        }
+
+        .moveDown {
+            color: black;
+            text-shadow: 2px 2px red;
+        }
+
+        .reviews {
+            background-color: #21D4FD;
+            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+            text-align: center;
+        }
+
+        .features {
+            background-image: linear-gradient(135deg, #2AFADF 10%, #4C83FF 100%);
+        }
+
+        .featureAlignation {
+            display: inline-block;
+            width: 45%;
+        }
+
+        #builtFor {
+            background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+        }
+
+        .headerForQue {
+            display: inline-block;
+            font-family: cursive;
+            color: black;
+            text-shadow: 2px 2px white;
+            padding: 5px;
+            text-align: center;
+            font-size: 3vmax;
+            font-weight: 1000;
+        }
+
+        .paraForQue {
+            display: inline-block;
+            font-family: cursive;
+            color: black;
+            text-shadow: 2px 2px white;
+            padding: 5px;
+            text-align: left;
+            font-size: 4vmin;
+        }
+
+        #download {
+            text-align: center;
+            background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+        }
+
+        footer {
+            background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+            background-blend-mode: multiply;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            font-size: 2vmin;
+        }
+
+        .anchorRemover {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+    <title>
+        LEGION OS
+    </title>
+</head>
+
+<body>
+    <div id="menu" class="fixed-top">
+        <div class="container-fluid " style="height:5px;background-color: #FFE53B;
+        background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+        "></div>
+        <nav class="navbar navbar-expand-sm bg-default ">
+            <div class="container-fluid shadow ">
+                <a class="navbar-brand" href="#">
+                    <img src="LegionIcon.jpg" alt="LegionLogo" style="width:55vmin;">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link navTabs" href="#featuresDetails">
+                            FEATURES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navTabs" href="#download">
+                            DOWNLOAD
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navTabs bg-primary p-2 rounded text-white" href="#"><i
+                                class=" bi-chat-square"></i> FEEDBACK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="OSIntro" class="container-fluid ">
+        <img class="OSLoading" src="OSLoading.jpg " alt="OSLoadingImage" />
+        <h1 class="inlineHeader"><br>WE ARE LEGION !<br>LET'S MEET<br></bt><span
+                class="bi-chevron-double-down moveDown"></span>
+        </h1>
+    </div>
+
+    <div id="carouselReviews" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active reviews">
+                <h1 class="header">"By far the most lightweight OS we have ever used till date.<br>Best performance and
+                    UI intergrity alongsideas well."<br>- PCMag.com</h1>
+            </div>
+            <div class="carousel-item reviews">
+                <h1 class="header">"Less RAM hungry much more power efficient has many software pre-included.<br>Overall
+                    a better OS for anyone with any use."<br>- SoftwareWorld.com</h1>
+            </div>
+            <div class="carousel-item reviews">
+                <h1 class="header">"Good OS with great security features modern,light,easy-to-use OS."<br>-
+                    TechnologyAdvice.com</h1>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselReviews" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselReviews" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container-fluid features">
+        <div id="featuresDetails">
+            <article class="featureAlignation">
+                <h1 class="headerForFeatures"><span class="bi-shield-fill-check"><br></span>BEST-IN-CLASS-SECURITY</h1>
+                <h4 class="paraForFeatures">Protected by newly designed kernel.<br>Stay updated and protected through
+                    latest
+                    patches.</h4>
+                <br>
+            </article>
+            <article class="featureAlignation">
+                <h1 class="headerForFeatures"><span class="bi-balloon"><br>LIGHT-WEIGHT</h1>
+                <h4 class="paraForFeatures">No bloatwares say NO to useless RAM hungry features. <br>Welcome new updated
+                    essential technologies. </h4>
+                <br>
+            </article>
+            <article class="featureAlignation">
+                <h1 class="headerForFeatures"><span class="bi-patch-check-fill"><br>SIMPLE & CLEAN UI</h1>
+                <h4 class="paraForFeatures">Aesthetic Look & Minimalistic Design.<br>Handy even for the users new to it.
+                </h4>
+                <br>
+
+            </article>
+            <article class=" featureAlignation">
+
+                <h1 class="headerForFeatures"><span class="bi-lightning-fill"><br>SPEED LIKE NEVER BEFORE</h1>
+                <h4 class="paraForFeatures h4">Blazing fast performance due to updated kernel.<br>Tuned software and
+                    auto
+                    High-Performance</h4>
+            </article>
+        </div>
+
+    </div>
+    <div id="builtFor" class="container-fluid">
+        <h1 class="headerForQue ">FOR WHOM & WHY WAS IT BUILT FOR? </h1>
+        <p id="builtForWhomAndWhy" class="paraForQue  col-sm-6 col-md-6 col-xs-6">Everyone in today's world deserves a
+            better place to live in internet.A much more better performing system with optimized features. The only
+            reason we created this OS was to fulfill all those objectives. Along with it giving complete Power,Privacy &
+            security in the hands of users.So enjoy the interconnected world anonymously as it should be. With our OS
+            it's possible for everyone.</p>
+        <img id="builtForWhomAndWhyImg" src="tagline.jpg" alt="tagline"
+            class=" img-fluid col-lg-6 col-md-6 col-sm-6  col-xs-12" style="float: right;">
+    </div>
+    <div id="download">
+        <a href="https://github.com/RS151203"><input type="image" src="get-it-on-github.png"
+                style="width: 20vmax; margin-top: 3vmax;" /></a>
+    </div>
+
+    </div>
+    <footer>
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 2vmin;background-color:white">
+                <path
+                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM199.2 312.6c14.94 15.06 34.8 23.38 55.89 23.38c.0313 0 0 0 0 0c21.06 0 40.92-8.312 55.83-23.38c9.375-9.375 24.53-9.469 33.97-.1562c9.406 9.344 9.469 24.53 .1562 33.97c-24 24.22-55.95 37.56-89.95 37.56c0 0 .0313 0 0 0c-33.97 0-65.95-13.34-89.95-37.56c-49.44-49.88-49.44-131 0-180.9c24-24.22 55.98-37.56 89.95-37.56c.0313 0 0 0 0 0c34 0 65.95 13.34 89.95 37.56c9.312 9.438 9.25 24.62-.1562 33.97c-9.438 9.344-24.59 9.188-33.97-.1562c-14.91-15.06-34.77-23.38-55.83-23.38c0 0 .0313 0 0 0c-21.09 0-40.95 8.312-55.89 23.38C168.3 230.6 168.3 281.4 199.2 312.6z" />
+            </svg>&nbsp;&nbsp; RS Website.All rights reserved.
+            <pre><br><a href="#" class="anchorRemover">Privacy</a> | <a href="#" class="anchorRemover">Terms</a> | <a href="#" class="anchorRemover">FAQ</a></pre>
+            Contact me:<br>Phone number/Whatsapp number-:7304219697<br>Mail me:rajatsabat86@gmail.com<br><a
+                href="https://github.com/RS151203">View my projects</a>
+        </span>
+    </footer>
+
+</body>
+<script>
+
+    //JS SCRIPT document.getElementById("menu").offsetHeight
+    /* JS SCRIPT ["load","resize"].forEach(function(eventToBePerformed){
+        window.addEventListener(eventToBePerformed,function(){
+            let heightOfMenu=parseInt($("#menu").height())
+            $("#OSIntro").css("margin-top",heightOfMenu+"px")
+        })
+    })
+    
+    */
+    //JS SCRIPT document.getElementById("OSIntro").style.marginTop = (heightOfMenu+"px")
+    $(window).on("load resize", function () {
+        let heightOfMenu = parseInt($("#menu").height())
+        $("#OSIntro").css("margin-top", heightOfMenu + "px")
+    })
+    $(window).on("load resize", function () {
+        let heightOfImg = parseInt($("#builtForWhomAndWhy").height())
+        $("#builtForWhomAndWhyImg").css("height", heightOfImg + "px")
+    })
+
+
+
+
+</script>
+
+</html>
